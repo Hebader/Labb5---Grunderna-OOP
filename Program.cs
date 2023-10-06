@@ -29,7 +29,7 @@
            
             area = _pi* _Radius * _Radius;
           
-            Console.WriteLine("Arean på cirkeln är " + area);
+            Console.WriteLine("Arean på cirkeln är: " + area);
         }
 
     }
