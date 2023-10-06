@@ -4,32 +4,32 @@
     {
         static void Main(string[] args)
         {
-           Circle Result1 = new Circle(5);
+           Circle Result1 = new Circle(5); //Räknar ut arean av radien som är 5
            Result1.getArea();
-           Circle Result2 = new Circle(6);
+           Circle Result2 = new Circle(6); //Räknar ut arean av radien som är 6
            Result2.getArea();
 
 
         }
     }
 
-    public class Circle
+    public class Circle // Skapar klassen Circle
     {
        float _pi = 3.141f;
        int _Radius =0;
 
-        public Circle(int Radius1)
+        public Circle(int Radius1) // Skapar en konstruktor
         {
             _Radius =  Radius1;
         }
 
-        public void getArea()
+        public void getArea() // denna metod reutnerar värdet av arean
         {
-            double area = 0;
+            double area = 0; // skapar en double för att "_pi" är ett decimaltal
            
-            area = _pi* _Radius * _Radius;
+            area = _pi* _Radius * _Radius; // Beräkning av area
           
-            Console.WriteLine("Arean på cirkeln är: " + area);
+            Console.WriteLine("Arean på cirkeln är: " + area); //Utskrift
         }
 
     }
