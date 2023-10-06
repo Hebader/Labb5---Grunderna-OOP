@@ -6,7 +6,7 @@
         {
            Circle Result1 = new Circle(5);
            Result1.getArea();
-           Circle Result2 = new Circle(5);
+           Circle Result2 = new Circle(6);
            Result2.getArea();
 
 
@@ -23,12 +23,13 @@
             _Radius =  Radius1;
         }
 
-        public double getArea()
+        public void getArea()
         {
             double area = 0;
            
             area = _pi* _Radius * _Radius;
-            return area;
+          
+            Console.WriteLine("Arean på cirkeln är " + area);
         }
 
     }
