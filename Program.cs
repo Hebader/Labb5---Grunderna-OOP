@@ -27,7 +27,7 @@
         {
             double area = 0; // skapar en double för att "_pi" är ett decimaltal
            
-            area = _pi* _Radius * _Radius; // Beräkning av area
+            area = _Radius * _Radius *_pi; // Beräkning av area
           
             Console.WriteLine("Arean på cirkeln är: " + area); //Utskrift
         }
