@@ -15,8 +15,8 @@
 
     public class Circle
     {
-      public float _pi = 3.141f;
-      public int _Radius =0;
+       float _pi = 3.141f;
+       int _Radius =0;
 
         public Circle(int Radius1)
         {
