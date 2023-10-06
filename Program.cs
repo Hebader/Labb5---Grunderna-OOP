@@ -8,8 +8,22 @@
         }
     }
 
-    public class Cirkle
+    public class Circle
     {
+        float _pi = 3.141f;
+        int _Radius = 0;
+
+        public Circle(int radie)
+        {
+
+        }
+
+        public void Result ()
+        {
+
+        }
 
     }
+    
+
 }
