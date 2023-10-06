@@ -4,23 +4,31 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           Circle Result1 = new Circle(5);
+           Result1.getArea();
+           Circle Result2 = new Circle(5);
+           Result2.getArea();
+
+
         }
     }
 
     public class Circle
     {
-        float _pi = 3.141f;
-        int _Radius = 0;
+      public float _pi = 3.141f;
+      public int _Radius =0;
 
-        public Circle(int radie)
+        public Circle(int Radius1)
         {
-
+            _Radius =  Radius1;
         }
 
-        public void Result ()
+        public double getArea()
         {
-
+            double area = 0;
+           
+            area = _pi* _Radius * _Radius;
+            return area;
         }
 
     }
