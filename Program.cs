@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
            Circle Result1 = new Circle(5); //Räknar ut arean av radien som är 5
-           Result1.getArea(); // Kör metoden från klassen
+           Result1.getArea(); // Kör metoden från klassen "Circle"
            Circle Result2 = new Circle(6); //Räknar ut arean av radien som är 6
            Result2.getArea();
         }
